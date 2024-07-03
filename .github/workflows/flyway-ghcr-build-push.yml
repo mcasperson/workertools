@@ -14,8 +14,8 @@ on:
   workflow_dispatch:
 
 env:
-   REGISTRY_IMAGE_BASE: ghcr.io/mcasperson/workertools
-   REGISTRY_IMAGE: ghcr.io/mcasperson/flyway-workertools
+   REGISTRY_IMAGE_BASE: ghcr.io/${{ github.event.repository.name }}/workertools
+   REGISTRY_IMAGE: ghcr.io/${{ github.event.repository.name }}/flyway-workertools
 
 jobs:
 
