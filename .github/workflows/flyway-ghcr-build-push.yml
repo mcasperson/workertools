@@ -1,4 +1,4 @@
-name: Build flyway-workertools image
+name: Build GHCR flyway-workertools image
 
 permissions:
   packages: write
