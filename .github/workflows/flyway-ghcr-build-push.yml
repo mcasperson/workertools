@@ -64,7 +64,7 @@ jobs:
             Write-Host "We have everything we need, continuing."
             echo "CONTINUE=Yes" >> $env:GITHUB_OUTPUT
         }
-      shell: powershell
+      shell: pwsh
 
   build-linux:
     needs: [get-version-number]
